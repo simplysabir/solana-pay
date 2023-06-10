@@ -13,7 +13,7 @@ import pkg from '../../../package.json';
 import useUserSOLBalanceStore from '../../stores/useUserSOLBalanceStore';
 
 //* Solana Pay 
-const SOLANA_PAY_URL = "solana:http://192.168.13.131:3000/api/hello";
+const SOLANA_PAY_URL = "solana:https://solana-pay-sooty.vercel.app/api/hello";
 import {createQR} from "@solana/pay";
 
 

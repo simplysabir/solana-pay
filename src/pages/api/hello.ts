@@ -78,7 +78,7 @@ async function post(
     });
 
     const base64Transaction = serializedTransaction.toString('base64');
-    const message = 'Thank you for using AndyPay';
+    const message = 'Thank you from Sabir';
 
     // const strategy : TransactionConfirmationStrategy =  {
     //   signature: transaction.
